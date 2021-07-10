@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    android:orientation="vertical"
+    tools:context=".AuthActivites.ForgotActivity">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/progressanimation"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"
+        android:visibility="gone"
+        app:lottie_autoPlay="true"
+        app:lottie_enableMergePathsForKitKatAndAbove="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/progress" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/carter_one"
+        android:text="@string/jet_gps_share"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/_28ssp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/title"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/user_ed"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_margin="@dimen/_15sdp"
+            android:background="@drawable/editbox_bg"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:paddingStart="@dimen/_20sdp"
+            android:textColorHint="@android:color/white" />
+        <EditText
+            android:id="@+id/user_mob"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_margin="@dimen/_15sdp"
+            android:background="@drawable/editbox_bg"
+            android:hint="@string/mobile"
+            android:inputType="number"
+            android:maxLength="10"
+            android:paddingStart="@dimen/_20sdp"
+            android:textColorHint="@android:color/white" />
+
+        <EditText
+            android:id="@+id/otp_ed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:hint="OTP"
+            android:inputType="number"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/response_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:text="Note: "
+            android:visibility="invisible" />
+
+        <EditText
+            android:id="@+id/pass_ed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:visibility="invisible" />
+
+        <EditText
+            android:id="@+id/conf_pass_ed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:visibility="invisible" />
+
+
+        <Button
+            android:id="@+id/loginBtn"
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:background="@drawable/buttonbg2"
+            android:elevation="@dimen/_7sdp"
+            android:text="Next"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

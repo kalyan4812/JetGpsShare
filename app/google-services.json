@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "877208038220",
+    "project_id": "jetgpsshare-a8c00",
+    "storage_bucket": "jetgpsshare-a8c00.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:877208038220:android:5c219c68bb808a26a13de9",
+        "android_client_info": {
+          "package_name": "com.saikalyandaroju.jetgpsshare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "877208038220-snj1bv6jabogchj9o4u1fdfj24mlqe6a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.saikalyandaroju.jetgpsshare",
+            "certificate_hash": "f234be0de36441e1a598e182b0ffb95683db6b9e"
+          }
+        },
+        {
+          "client_id": "877208038220-lvlrdc6g174sit1cm97pmaaj0mv70fk8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7RjhcMVKuOz0PMa0ok5_k-QdBwAjOosk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "877208038220-lvlrdc6g174sit1cm97pmaaj0mv70fk8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@android:color/white"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AuthActivites.RemoveAccount">
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/progressanimation"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"
+        android:visibility="gone"
+        app:lottie_autoPlay="true"
+        app:lottie_enableMergePathsForKitKatAndAbove="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/progress" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/carter_one"
+        android:text="@string/jet_gps_share"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_28ssp" />
+
+
+        <EditText
+            android:id="@+id/user_ed"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_margin="@dimen/_15sdp"
+            android:background="@drawable/editbg2"
+            android:hint="@string/mobile"
+            android:maxLength="10"
+            android:inputType="textEmailAddress"
+            android:paddingStart="@dimen/_20sdp"
+            android:textColorHint="@android:color/secondary_text_dark_nodisable" />
+        <EditText
+            android:id="@+id/user_pass"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_margin="@dimen/_15sdp"
+            android:background="@drawable/editbg2"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:paddingStart="@dimen/_20sdp"
+            android:textColorHint="@android:color/secondary_text_dark_nodisable" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CONFIRM"
+        android:layout_gravity="right"
+        android:layout_margin="@dimen/_15sdp"
+        android:background="@drawable/buttonbg2"
+        android:padding="@dimen/_5sdp"
+        android:textStyle="bold"
+        android:onClick="deleteaccount"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_7sdp"
+        android:text="NOTE : Your account will be deleted from database permanenetly. "
+        android:textStyle="bold"
+        />
+
+</LinearLayout>

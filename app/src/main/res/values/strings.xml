@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">JetGpsShare</string>
+    <string name="title_activity_dashboard">Dashboard</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="mapbox_access_token">MAPBOX_ACCESS_TOKEN</string>
+    <string name="navigation_guidance_day" translatable="false">mapbox://styles/mapbox/navigation-guidance-day-v4</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="admob_id2">ca-app-pub-1949919956019180/6221292218</string>
+    <string name="admob_id1">ca-app-pub-1949919956019180/3685245326</string>
+    <string name="admob_id3">ca-app-pub-1949919956019180/3685245326</string>
+    <string name="admob_id4">ca-app-pub-1949919956019180/2998849613</string>
+    <string name="admob_id5">ca-app-pub-1949919956019180/3541791004</string>
+    <string name="home_second">Home Second</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="jet_gps_share">Jet GPS Share</string>
+
+    <string name="login">Login ?</string>
+    <string name="sign_up">Sign up</string>
+    <string name="name">Name</string>
+    <string name="mobile">Mobile</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="profile">PROFILE</string>
+    <string name="friends">FRIENDS</string>
+    <string name="add">ADD</string>
+    <string name="remove">REMOVE</string>
+    <string name="activitystatus">Activity Status</string>
+    <string name="your_friend_not_using_the_app_please_share_the_app_to_get_location">YOUR FRIEND NOT USING THE APP,PLEASE SHARE THE APP TO GET LOCATION.</string>
+    <string name="share">SHARE</string>
+    <string name="cancel">CANCEL</string>
+    <string name="add_friends_to_list_so_that_only_they_can_access_your_location">ADD FRIENDS TO LIST, SO THAT ONLY THEY CAN ACCESS YOUR LOCATION.</string>
+    <string name="enter_mobile_number">ENTER MOBILE NUMBER</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="mypolicy">
+        This Privacy Policy is meant to help you
+understand what data we collect, why we collect
+it, and what we do with it. This is important; we
+        hope you will take time to read it carefully.
+
+
+We collect some of your information.we donot
+share any of your information with 3rd Parties.
+
+Why do we require permissions?
+All the permissions mentioned in the app are
+required with the sole purpose of running the
+app.
+What kind of data we collect from you?
+Mobile Number:
+        This is the key to track the location of the person you want.
+        Note: You can tack his location only if the other person has added you in his friendlist.
+        This is to make sure ,no stranger can access your location.
+ MailId:
+        This is needed for us to send notifications incase if you have forgot your password.
+
+ ## We dont store your password dircetly,instead we store the hash values of your password.
+What are the permissions required in the App?
+Contacts:
+        Contacts permission is needed to access your mobile contacts,so that user
+        can add his friends (the person who can access his location ) in a
+        better and simpler way.
+Location:
+        The sole of this app is based on this permission,because this app needs this permission
+        to access your current location.
+ AutoStart:
+        This is to make sure ,our app keeps tracking your location continously,even if you are not
+        using the app.This make your friends(those people user added in his friends list)
+        access your recent location.
+
+ We are open for your suggestions in improvement of the app.You can give your feedback
+        to mail Id:saikalyan481216@gmail.com
+    </string>
+    <string name="jet_gps_share_privacy_plocy">Jet Gps Share Privacy Plocy</string>
+    <string name="my_app_policy"><![CDATA[This Privacy Policy is meant to help you understand what data we collect, why we collect it, and what we do with it. This is important; we hope you will take time to read it carefully.\n\nWe collect some of your information.we donot share any of your information with 3rd Parties.\n\n->>Why do we require permissions?\n\nAll the permissions mentioned in the app are required with the sole purpose of running the app.\n\n->>What kind of data we collect from you?\n\nMobile Number:\nThis is the key to track the location of the person you want.\n Note: You can track his location only if the other person has added you in his friendlist.This is to make sure ,no stranger can access your location.\n\nMailId:\n This is needed for us to send notifications incase if you have forgot your password.\n\n ## We dont store your password dircetly,instead we store the hash values of your password.\n\n ->>What are the permissions required in the App?\n\n Contacts:\n Contacts permission is needed to access your mobile contacts,so that user can add his friends (the person who can access his location ) in a better and simpler way.\n Location:\n The sole of this app is based on this permission,because this app needs this permission to access your current location.\n AutoStart:\n This is to make sure ,our app keeps track your location continously,even if you are not using the app.This make your friends(those people user added in his friends list) can access your recent location.\n\nWe are open for your suggestions in improvement of the app.You can give your feedback to mail Id:saikalyan481216@gmail.com]]></string>
+    <string name="logging_out">LOGGING OUT.....</string>
+    <string name="back_to_home">BACK TO HOME</string>
+    <string name="update">UPDATE</string>
+    <string name="search">Search</string>
+    <string name="enter_otp">ENTER OTP</string>
+    <string name="next">NEXT</string>
+    <string name="change_profile_photo">Change Profile Photo</string>
+    <string name="home">HOME</string>
+    <string name="to_continue_please_confirm_that_you_n_read_our_privacy_policy_and_accept_it">To continue,please confirm that you  read our privacy policy and accept it.</string>
+
+    <string name="mylink"><a href="https://oakspro.com/projects/project36/kalyan/JGS/privacypolicy">Our Privacy Policy</a></string>
+    <string name="enter_name">ENTER NAME</string>
+    <string name="how_to_use_the_app">How to use the app ?</string>
+    <string name="how_to_use_the_app_n_n_purpose_of_app_this_app_makes_you_to_find_the_location_of_your_friends_using_their_mobile_number_all_you_need_is_to_ask_your_friend_add_you_in_his_friends_list_indirectly_you_can_access_a_person_location_only_if_he_she_allow_you_this_make_our_app_usage_legal_how_to_search_your_friends_after_entering_into_the_app_you_can_find_a_search_button_at_the_bottom_of_screen_where_you_can_find_your_friend_using_name_or_number_how_to_share_location_you_can_share_your_any_destination_location_to_anybody_by_using_share_option_in_the_app_things_to_keep_in_mind_for_proper_working_of_app_1_please_turn_on_activity_status_so_that_your_friends_can_find_your_recent_location_when_you_don_t_need_this_you_can_turn_off_this_2_please_give_permission_for_location_and_contact_access_for_working_of_app_3_if_you_want_to_keep_your_location_updates_running_even_when_you_are_not_using_the_app_you_can_give_turn_on_auto_start_permission_for_the_app_4_you_can_change_the_style_of_map_in_the_app_in_the_settings">HOW TO USE THE APP???\n\n ## Purpose of App: This app makes you to find the location of your friends using their mobile number. All you need is to ask your friend add you in his friends list. Indirectly you can access a person location only if he/she allow you. This make our app usage legal. ##How to search your friends? After entering into the app you can find a Search button at the bottom of screen where you can find your friend using name or number. ## How to Share Location? You can share your /any destination location to anybody by using share option in the app. **Things to keep in mind for proper working of app** 1)Please turn on Activity status, so that your friends can find your recent location. When you don\'t need this you can turn off this. 2)Please give permission for location and contact access for working of app. 3)If you want to keep your location updates running even when you are not using the app you can give turn on auto -start permission for the app. 4)You can change the style of map in the app In the settings.</string>
+    <string name="how_to_use_the_app_n_n_purpose_of_app_n_nthis_app_makes_you_to_find_the_location_of_your_friends_using_their_mobile_number_all_you_need_is_to_ask_your_friend_add_you_in_his_friends_list_indirectly_you_can_access_a_person_location_only_if_he_she_allow_you_this_make_our_app_usage_legal_n_n_how_to_search_your_friends_n_nafter_entering_into_the_app_you_can_find_a_search_button_at_the_bottom_of_screen_where_you_can_find_your_friend_using_name_or_number_n_n_how_to_share_location_n_n_you_can_share_your_any_destination_location_to_anybody_by_using_share_option_in_the_app_n_n_things_to_keep_in_mind_for_proper_working_of_app_n_n_1_please_turn_on_activity_status_so_that_your_friends_can_find_your_recent_location_when_you_don_t_need_this_you_can_turn_off_this_n_n_2_please_give_permission_for_location_and_contact_access_for_working_of_app_n_n_3_if_you_want_to_keep_your_location_updates_running_even_when_you_are_not_using_the_app_you_can_give_turn_on_auto_start_permission_for_the_app_n_n_4_you_can_change_the_style_of_map_in_the_app_in_the_settings_n_n">HOW TO USE THE APP???\n\n## Purpose of App:\n\nThis app makes you to find the location of your friends using their mobile number. All you need is to ask your friend add you in his friends list. Indirectly you can access a person location only if he/she allow you. This make our app usage legal.\n\n##How to search your friends?\n\nAfter entering into the app you can find a Search button at the bottom of screen where you can find your friend using name or number.\n\n ## How to Share Location?\n\n You can share your /any destination location to anybody by using share option in the app.\n\n **Things to keep in mind for proper working of app**\n\n 1)Please turn on Activity status, so that your friends can find your recent location. When you don\'t need this you can turn off this.\n\n 2)Please give permission for location and contact access for working of app.\n\n 3)If you want to keep your location updates running even when you are not using the app you can give turn on auto -start permission for the app.\n\n 4)You can change the style of map in the app In the settings.\n\n</string>
+    <string name="starttheapp"> START THE APP </string>
+
+</resources>

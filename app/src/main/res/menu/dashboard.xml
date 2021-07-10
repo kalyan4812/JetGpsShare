@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="101"
+        android:title="@string/privacy_policy"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/usage"
+        android:orderInCategory="101"
+        android:title="@string/how_to_use_the_app"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/satellite_view"
+        android:orderInCategory="101"
+        android:title="Satellite View"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/Street_View"
+        android:orderInCategory="101"
+        android:title="Street View"
+        app:showAsAction="never" />
+</menu>

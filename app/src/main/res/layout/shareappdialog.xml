@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+
+    >
+
+    <TextView
+        android:id="@+id/friendmobile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/_15sdp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/carter_one"
+        android:hint="@string/your_friend_not_using_the_app_please_share_the_app_to_get_location"
+        android:inputType="textMultiLine"
+        android:textSize="@dimen/_14ssp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/cancelshare"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_weight="0.2"
+            android:backgroundTint="#a1c4fd"
+            android:background="@drawable/buttonbg"
+            android:text="@string/cancel"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/share"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_5sdp"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_weight="0.2"
+            android:backgroundTint="#a1c4fd"
+            android:background="@drawable/buttonbg"
+            android:text="@string/share"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>

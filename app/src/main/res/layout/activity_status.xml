@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context=".ActivityStatusActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/mylinear"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_20sdp"
+            android:layout_weight="0.8"
+            android:fontFamily="@font/carter_one"
+            android:maxLines="1"
+            android:text="Show Activity Status "
+            android:textSize="@dimen/_16ssp"
+            android:textStyle="bold"></TextView>
+
+        <Switch
+            android:id="@+id/myswitch"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_20sdp"
+            android:layout_weight="0.2"
+            android:elevation="@dimen/_7sdp"></Switch>
+
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:layout_gravity="center"
+        android:id="@+id/mytext"
+        android:layout_margin="@dimen/_16sdp"
+        android:inputType="textMultiLine"
+        android:text="Allow your friends to access your most recent
+location .When this is turned off ,your friends won't be able to
+see your recent location.To make sure your location is updated even in background
+,please turn on autostart permission for the app in the settings,if you
+haven't.Kindly note that,although some phones don't allow background running,so you shouldn't close the
+app,to update your location."
+        android:textColor="#938B8B"
+        android:textSize="@dimen/_13ssp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:id="@+id/ads_frame"
+        android:layout_marginBottom="@dimen/_2sdp"
+        />
+</LinearLayout>
+</LinearLayout>

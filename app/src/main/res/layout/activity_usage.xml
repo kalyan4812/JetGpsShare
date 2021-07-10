@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OnBoardActivities.PrivacyPolicyActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:inputType="textMultiLine"
+            android:padding="@dimen/_7sdp"
+            android:textStyle="bold"
+            android:id="@+id/mytext"
+            android:text="@string/how_to_use_the_app_n_n_purpose_of_app_n_nthis_app_makes_you_to_find_the_location_of_your_friends_using_their_mobile_number_all_you_need_is_to_ask_your_friend_add_you_in_his_friends_list_indirectly_you_can_access_a_person_location_only_if_he_she_allow_you_this_make_our_app_usage_legal_n_n_how_to_search_your_friends_n_nafter_entering_into_the_app_you_can_find_a_search_button_at_the_bottom_of_screen_where_you_can_find_your_friend_using_name_or_number_n_n_how_to_share_location_n_n_you_can_share_your_any_destination_location_to_anybody_by_using_share_option_in_the_app_n_n_things_to_keep_in_mind_for_proper_working_of_app_n_n_1_please_turn_on_activity_status_so_that_your_friends_can_find_your_recent_location_when_you_don_t_need_this_you_can_turn_off_this_n_n_2_please_give_permission_for_location_and_contact_access_for_working_of_app_n_n_3_if_you_want_to_keep_your_location_updates_running_even_when_you_are_not_using_the_app_you_can_give_turn_on_auto_start_permission_for_the_app_n_n_4_you_can_change_the_style_of_map_in_the_app_in_the_settings_n_n"
+           />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    tools:context=".OnBoardActivities.Autostart">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_200sdp"
+        android:src="@drawable/mylogo"
+        android:padding="@dimen/_30sdp"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/_10sdp"
+        android:id="@+id/mylayout"
+        android:layout_margin="@dimen/_10sdp"
+        android:background="@drawable/linearbg"
+        android:layout_gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_5sdp"
+            android:id="@+id/autostart"
+            android:text="Auto Start Permission is needed to keep your location
+ updating even in background."
+            android:inputType="textMultiLine"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/_30sdp"
+            android:textSize="@dimen/_15ssp"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Give Permission"
+            android:gravity="center"
+            android:background="@drawable/bg2"
+            android:backgroundTint="@android:color/white"
+            android:layout_gravity="center"
+            android:padding="@dimen/_7sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:textStyle="bold"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:fontFamily="@font/carter_one"
+            android:id="@+id/permission"
+            android:clickable="true"
+            />
+     <!--   <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Skip"
+            android:layout_gravity="center"
+            android:id="@+id/skip"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:textSize="@dimen/_20ssp"
+            android:onClick="skip"
+            android:clickable="true"/>-->
+
+    </LinearLayout>
+    <ProgressBar
+        android:layout_width="200dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_height="40dp"
+        android:id="@+id/mybar"
+        android:visibility="gone"
+
+        android:layout_gravity="center"
+        android:indeterminate="true"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:indeterminateTintMode="src_atop"
+        android:indeterminateTint="@android:color/white"
+        android:layout_marginTop="@dimen/_5sdp"
+        />
+</LinearLayout>

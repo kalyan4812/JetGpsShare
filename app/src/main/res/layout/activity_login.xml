@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    android:orientation="vertical"
+    tools:context=".AuthActivites.LoginActivity">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/progressanimation"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"
+        android:visibility="gone"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/progress" />
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_weight="0.2"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iconlogo"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_65sdp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_6sdp"
+            android:layout_weight="0.2"
+            android:src="@drawable/world" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_6sdp"
+            android:layout_weight="0.8"
+            android:maxLines="1"
+            android:fontFamily="@font/carter_one"
+            android:gravity="center_vertical"
+            android:text="@string/jet_gps_share"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/_22ssp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:layout_weight="0.65"
+        android:background="@drawable/linearbg"
+        android:orientation="vertical"
+        android:padding="@dimen/_10sdp">
+
+
+        <EditText
+            android:id="@+id/user_ed"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_margin="@dimen/_15sdp"
+            android:background="@drawable/editbox_bg"
+            android:hint="Mobile"
+            android:inputType="phone"
+            android:maxLength="10"
+            android:paddingLeft="@dimen/_20sdp"
+            android:textColorHint="@android:color/white" />
+
+        <EditText
+            android:id="@+id/pass_ed"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_margin="@dimen/_15sdp"
+            android:background="@drawable/editbox_bg"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:paddingLeft="@dimen/_20sdp"
+            android:textColorHint="@android:color/white" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:clickable="true"
+            android:onClick="openForgot"
+            android:text="Forgot Password ?"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/_15ssp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/loginBtn"
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:background="@drawable/buttonbg2"
+            android:elevation="@dimen/_7sdp"
+            android:text="Login" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/_20sdp"
+        android:layout_weight="0.15"
+        android:onClick="openSignupLink"
+        android:text="Create Account ?"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/_20ssp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

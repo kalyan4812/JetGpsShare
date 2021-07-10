@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/mapFragment"
+        android:title="Home"
+        android:icon="@drawable/ic_map_black_24dp"
+        />
+    <item android:id="@+id/shareFragment"
+        android:title="Share"
+        android:icon="@drawable/ic_share_black_24dp"
+        />
+
+
+</menu>

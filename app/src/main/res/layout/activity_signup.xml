@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    android:orientation="vertical"
+    tools:context=".AuthActivites.SignupActivity">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/progressanimation"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"
+        android:visibility="gone"
+        app:lottie_autoPlay="true"
+        app:lottie_enableMergePathsForKitKatAndAbove="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/progress" />
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_weight="0.15"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iconlogo"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_65sdp"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_6sdp"
+            android:layout_weight="0.2"
+            android:src="@drawable/world"
+            tools:ignore="NestedWeights" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_6sdp"
+            android:layout_weight="0.8"
+            android:fontFamily="@font/carter_one"
+            android:gravity="center_vertical"
+            android:maxLines="1"
+            android:text="@string/jet_gps_share"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/_20ssp" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:layout_weight="0.75"
+        android:background="@drawable/linearbg"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/name_ed"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_15sdp"
+            android:background="@drawable/editbox_bg"
+            android:hint="@string/name"
+            android:paddingStart="@dimen/_20sdp"
+            android:textColorHint="@android:color/white" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="@dimen/_15sdp"
+    android:layout_marginTop="@dimen/_20sdp"
+    android:layout_marginRight="@dimen/_15sdp"
+    android:background="@drawable/editbox_bg"
+    android:orientation="horizontal">
+    <com.rilixtech.widget.countrycodepicker.CountryCodePicker
+        android:id="@+id/ccp"
+        android:layout_width="0dp"
+        android:layout_weight="0.35"
+        android:layout_gravity="center"
+        android:layout_marginLeft="@dimen/_7sdp"
+        android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/user_ed"
+            android:layout_width="0dp"
+            android:layout_weight="0.65"
+            android:layout_height="@dimen/_45sdp"
+            android:hint="@string/mobile"
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:background="@drawable/flag_transparent"
+            android:textColorHint="@android:color/white" />
+</LinearLayout>
+        <EditText
+            android:id="@+id/email_ed"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_12sdp"
+            android:layout_marginRight="@dimen/_15sdp"
+            android:background="@drawable/editbox_bg"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:paddingStart="@dimen/_20sdp"
+            android:textColorHint="@android:color/white" />
+
+        <EditText
+            android:id="@+id/otp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_12sdp"
+            android:visibility="gone"
+            android:layout_marginRight="@dimen/_15sdp"
+            android:background="@drawable/editbox_bg"
+            android:hint="@string/enter_otp"
+            android:inputType="textEmailAddress"
+            android:paddingStart="@dimen/_20sdp"
+            android:textColorHint="@android:color/white" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:id="@+id/otptext"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/_5sdp"
+            android:text="OTP has been sent to mobile number entered. "
+            android:textSize="@dimen/_12ssp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|start"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:clickable="true"
+                android:id="@+id/resendotp"
+                android:visibility="gone"
+                android:padding="@dimen/_5sdp"
+                android:fontFamily="@font/carter_one"
+                android:text="Resend OTP"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/next"
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_gravity="center_vertical|end"
+                android:layout_marginRight="@dimen/_15sdp"
+                android:background="@drawable/buttonbg2"
+                android:text="@string/next"
+                android:textStyle="bold" />
+
+
+
+        <EditText
+            android:id="@+id/pass_ed"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_marginLeft="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_12sdp"
+            android:visibility="gone"
+            android:layout_marginRight="@dimen/_15sdp"
+            android:background="@drawable/editbox_bg"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:paddingStart="@dimen/_20sdp"
+            android:textColorHint="@android:color/white" />
+
+
+        <Button
+            android:id="@+id/signupBtn"
+            android:layout_width="@dimen/_100sdp"
+            android:visibility="gone"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:background="@drawable/buttonbg2"
+            android:text="@string/sign_up"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/_10sdp"
+        android:layout_weight="0.1"
+        android:onClick="openLoginLink"
+        android:text="@string/login"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/_20ssp"
+        android:textStyle="bold" />
+</LinearLayout>

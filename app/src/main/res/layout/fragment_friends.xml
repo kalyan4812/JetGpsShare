@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mycontainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:context=".ui.friends.FriendsFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_85sdp"
+        android:layout_margin="@dimen/_10sdp"
+        android:fontFamily="@font/acme"
+        android:gravity="center"
+        android:inputType="textMultiLine"
+        android:padding="@dimen/_5sdp"
+        android:text="@string/add_friends_to_list_so_that_only_they_can_access_your_location"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/_15ssp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/add_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/buttonbg"
+        android:backgroundTint="@color/colorPrimary"
+        android:padding="@dimen/_15sdp"
+        android:text="Add FRIENDS"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_10sdp"
+        android:fontFamily="@font/carter_one"
+        android:text="YOUR FRIENDS :"
+        android:textColor="@android:color/black"
+        android:textSize="@dimen/_18ssp"
+        android:textStyle="bold" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recylerView32"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.85"
+        android:layoutAnimation="@anim/layout_fall_down" />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.15"
+        android:id="@+id/ads_frame"
+        />
+</LinearLayout>
+
+</LinearLayout>

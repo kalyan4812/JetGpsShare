@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.saikalyandaroju.jetgpsshare">
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+
+        android:theme="@style/AppTheme">
+        <activity android:name=".OnBoardActivities.Usage" />
+        <activity
+            android:name=".OnBoardActivities.Autostart"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".OnBoardActivities.PrivacyRules"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".AuthActivites.RemoveAccount" />
+        <activity android:name=".OnBoardActivities.IntroActivity" />
+        <activity android:name=".OnBoardActivities.PrivacyPolicyActivity" />
+        <activity
+            android:name=".AuthActivites.Logout"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ActivityStatusActivity"
+            android:parentActivityName=".Dashboard" />
+        <activity android:name=".ui.friends.AddFriendsActivity" />
+        <activity
+            android:name=".Dashboard"
+            android:label="@string/title_activity_dashboard"
+            android:launchMode="singleTask"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="com.saikalyandaroju.jetgpsshare.Dashboard" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AuthActivites.ForgotActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AuthActivites.SignupActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AuthActivites.LoginActivity"
+            android:launchMode="singleTask"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:hardwareAccelerated="true"
+            android:theme="@style/Theme.Transparent">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <service
+            android:name=".ActivityStatusActivity$Myservice"
+            android:enabled="true"
+            android:exported="true"
+            android:foregroundServiceType="location|dataSync"
+            android:stopWithTask="false" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-1949919956019180~3988497651" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
