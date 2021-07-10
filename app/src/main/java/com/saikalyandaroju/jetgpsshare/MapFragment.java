@@ -767,7 +767,7 @@ public class MapFragment extends Fragment implements OnMapReadyCallback,
         }
 
         Log.i("path", "mapClick");
-        new getaddresstask().execute(destinationPoint);
+        new GetAddressTask().execute(destinationPoint);
 
 
         getRoute(originPoint, destinationPoint);
@@ -837,7 +837,7 @@ public class MapFragment extends Fragment implements OnMapReadyCallback,
 
 
     @SuppressLint("StaticFieldLeak")
-    public class getaddresstask extends AsyncTask<Point, Void, Void> {
+    public class GetAddressTask extends AsyncTask<Point, Void, Void> {
 
         Point point;
 
@@ -949,7 +949,7 @@ public class MapFragment extends Fragment implements OnMapReadyCallback,
                 if (mapboxMap != null) {
                     mapboxMap.clear();
                 }
-                new MyTask().execute(optimizedroute);
+                new DrawPolyLineTask().execute(optimizedroute);
                 Log.i("path", "getROute");
                 startnavigation.setVisibility(View.VISIBLE);
                 startnavigation.setClickable(true);
@@ -1004,7 +1004,7 @@ public class MapFragment extends Fragment implements OnMapReadyCallback,
 
     }
 
-    public class MyTask extends AsyncTask<DirectionsRoute, Void, Void> {
+    public class DrawPolyLineTask extends AsyncTask<DirectionsRoute, Void, Void> {
 
         LatLng[] points;
         List<Point> coordinates = new ArrayList<>();

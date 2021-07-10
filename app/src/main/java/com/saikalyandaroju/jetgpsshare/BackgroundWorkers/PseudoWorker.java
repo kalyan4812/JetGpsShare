@@ -63,9 +63,13 @@ public class PseudoWorker extends Worker {
     public PseudoWorker(@NonNull Context context, @NonNull WorkerParameters workerParams) {
         super(context, workerParams);
         this.context = context;
-        sharedPreferences = context.getSharedPreferences("MyUser", MODE_PRIVATE);
-        editor = sharedPreferences.edit();
+        initPrfes();
+        setUpLocationCallbacks(context);
 
+
+    }
+
+    private void setUpLocationCallbacks(Context context) {
         locationProviderClient = LocationServices.getFusedLocationProviderClient(context);
         locationRequest = LocationRequest.create();
         locationRequest.setPriority(LocationRequest.PRIORITY_HIGH_ACCURACY);
@@ -89,6 +93,12 @@ public class PseudoWorker extends Worker {
         };
     }
 
+    private void initPrfes() {
+        sharedPreferences = context.getSharedPreferences("MyUser", MODE_PRIVATE);
+        editor = sharedPreferences.edit();
+
+    }
+
 
     private void startGettingLocation() {
         if (ActivityCompat.checkSelfPermission(context, Manifest.permission.ACCESS_FINE_LOCATION) == PackageManager.PERMISSION_GRANTED &&
@@ -105,9 +115,6 @@ public class PseudoWorker extends Worker {
                         String lat = location.getLatitude() + "";
                         String longi = location.getLongitude() + "";
                         String num = sharedPreferences.getString("mobile", null);
-                        // Toast.makeText(context, location.getLatitude() + "  " + location.getLongitude(), Toast.LENGTH_SHORT).show();
-                        //  Log.i("info",location.getLatitude() + "  " + location.getLongitude());
-
                         UploadCordServer(lat, longi, num);
                     }
                 }
@@ -142,10 +149,8 @@ public class PseudoWorker extends Worker {
     public Result doWork() {
         try {
             Log.i("info", "pass1");
-            // setForegroundAsync(createForegroundInfo());
 
-            myworK();
-            //    ContextCompat.startForegroundService(context,new Intent(context,Myservice.class));
+            doGeoWork();
 
 
         } catch (Exception e) {
@@ -156,7 +161,7 @@ public class PseudoWorker extends Worker {
     }
 
 
-    private void myworK() {
+    private void doGeoWork() {
 
 
         startGettingLocation();
@@ -166,7 +171,7 @@ public class PseudoWorker extends Worker {
 
         WorkManager.getInstance(context).enqueue(request);
 
-        // startCacheWorker();
+
     }
 
 
