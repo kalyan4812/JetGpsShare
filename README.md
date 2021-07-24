@@ -14,10 +14,10 @@ Application is available here:
 
 Jet Gps Share is an android application makes you to find the location of your friends using their mobile number.All you need is to ask your friend to add you in his friends list. Indirectly you can access a person location only if he/she allows you.This makes our app legal.
 
-### The following libraries were used in this project:-
+### The following libraries/Tools were used in this project:-
 
- - [ViewModels](https://developer.android.com/topic/libraries/architecture/viewmodel)
- - [LiveData](https://developer.android.com/topic/libraries/architecture/livedata)
+ - [MapBoxSdk](https://docs.mapbox.com/android/maps/guides/)
+ - [Room](https://developer.android.com/topic/libraries/architecture/livedata)
  - [Glide](https://github.com/bumptech/glide)
  - [Dagger2](https://github.com/google/dagger)
  - [Retrofit](https://github.com/square/retrofit)
