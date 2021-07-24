@@ -113,10 +113,6 @@ add him/her to your friendslist,other wise you have to invite him to use the app
         </tr>
 </table>
 
-## License
-
-This project is currently licensed under the Apache License Version 2.0. A copy of [LICENSE](LICENSE) should be present along with the source code.
-
 ## Maintainers and Developers
 This repository is owned and maintained by 
  * [Sai Klayan](https://github.com/kalyan4812)
