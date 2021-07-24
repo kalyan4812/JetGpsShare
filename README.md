@@ -1,11 +1,12 @@
 
 
+
 # **Jet Gps Share**
 
 
 ![Api Level](https://img.shields.io/badge/Min%20API%20Level-21-important)
 
-<a href="https://play.google.com/store/apps/details?id=com.saikalyandaroju.jetgpsshare"><img alt="Get it on Google Play" height="80" src="/Images/google-play-badge.png"></a>
+<a href="https://play.google.com/store/apps/details?id=com.saikalyandaroju.jetgpsshare"><img alt="Get it on Google Play" height="80" src="https://user-images.githubusercontent.com/68738102/126859366-c344986c-b527-4151-8d4c-e91c92eda716.png"></a>
 
 College Connect is an android application aimed to be a one-stop-shop for all the college needs irrespective of college and course.  
 It aims to create a helpful platform for all college students.
