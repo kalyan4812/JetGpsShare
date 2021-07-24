@@ -57,20 +57,16 @@ Signup uses Firebase OTP ,to verify the unique user,although there is a private 
 * You can share your/any destination location to anybody using share option in the app.
 * Clicking on start navigation navigate to google navigation where you can get directions from your location to destination.
 
-<table>
+ <table>
         <tr>
           <td><img src = "https://user-images.githubusercontent.com/68738102/126862037-e8fcc62a-f9f5-4f44-908f-0fd76164712a.png" ></td>
           <td><img src = "https://user-images.githubusercontent.com/68738102/126862059-4176e1e0-65a0-4241-875f-db1616ba5212.png" ></td>
           <td><img src = "https://user-images.githubusercontent.com/68738102/126862090-5e9ca828-436e-4d6c-a477-bdd8ab321f10.png" ></td>
         </tr>
-  <tr>
+       <tr>
           <td><img src = "https://user-images.githubusercontent.com/68738102/126862178-1a57e3f3-ad4a-4013-a6b1-79d38c7d2fe3.png" ></td>
           <td><img src = "https://user-images.githubusercontent.com/68738102/126862535-b7913d34-37bd-4e90-9db6-d585e2c2cf31.png" ></td>
-       
         </tr>
- 
-
-
 </table>
 
 
@@ -205,5 +201,5 @@ This project is currently licensed under the Apache License Version 2.0. A copy 
 
 ## Maintainers and Developers
 This repository is owned and maintained by 
- * [Sajal Jain](https://github.com/sjain30)
- * [Saksham Pruthi](https://github.com/sakshampruthi)
+ * [Sai Klayan](https://github.com/kalyan4812)
+
