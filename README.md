@@ -30,9 +30,9 @@ The app is developed using native android(Java) and PHP,MySql as backend. It is 
 
 <table>
         <tr>
-          <td><img src = "https://user-images.githubusercontent.com/68738102/126860377-0a96e2cb-dd24-4117-8ac1-8157d8f55ebd.png" ></td>
-          <td><img src = "https://user-images.githubusercontent.com/68738102/126860797-c3680d5c-bc92-4e62-b2f1-b0c9406bba2a.png" ></td>
-          <td><img src = "https://user-images.githubusercontent.com/68738102/126860797-c3680d5c-bc92-4e62-b2f1-b0c9406bba2a.png" ></td>
+          <td><img src = "https://user-images.githubusercontent.com/68738102/126861392-84d45057-ccb1-4b1c-980b-7d4ab8a85838.png" ></td>
+          <td><img src = "https://user-images.githubusercontent.com/68738102/126861459-cb4d3b37-6715-40d5-9628-0b6eb9604bbb.png" ></td>
+          <td><img src = "https://user-images.githubusercontent.com/68738102/126861430-9a6a7200-eee0-4a94-a750-0c396d60882a.png" ></td>
         </tr>
 </table>
 
@@ -44,7 +44,8 @@ The app has an integrated **Attendance Manager** which uses Room Library and SQL
 ### Notes  
 The Notes tab provides notes uploaded by students. The recycler view shows the name of the author with a total number of downloads and relevant tags.
 
-<img src = "/Images/download_notes_light.PNG" width="235" height="500"/>
+
+c = "/Images/download_notes_light.PNG" width="235" height="500"/>
 
 #### _Upload Notes and My Files_  
 The upload notes area provide for easy upload of notes by users. It takes the authors name to give credit to the author.
