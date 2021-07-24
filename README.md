@@ -115,5 +115,5 @@ add him/her to your friendslist,other wise you have to invite him to use the app
 
 ## Maintainers and Developers
 This repository is owned and maintained by 
- * [Sai Klayan](https://github.com/kalyan4812)
+ * [Sai Kalyan](https://github.com/kalyan4812)
 
