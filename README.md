@@ -45,8 +45,8 @@ Signup uses Firebase OTP ,to verify the unique user,although there is a private 
 
 <table>
         <tr>
-          <td><img src = "https://user-images.githubusercontent.com/68738102/126861514-a3b64eb0-d56a-4946-b496-8417122aff6e.png" ></td>
-          <td><img src = "https://user-images.githubusercontent.com/68738102/126861538-d3bfaa40-ef4b-44ab-95fd-75878828425c.png" ></td>
+          <td><img src = "https://user-images.githubusercontent.com/68738102/126861514-a3b64eb0-d56a-4946-b496-8417122aff6e.png" height="560"></td>
+          <td><img src = "https://user-images.githubusercontent.com/68738102/126861538-d3bfaa40-ef4b-44ab-95fd-75878828425c.png" height="560"></td>
         </tr>
 </table>
 
@@ -103,8 +103,8 @@ add him/her to your friendslist,other wise you have to invite him to use the app
 * You can remove your account ,so that all your data will be deleted from database,.
 <table>
         <tr>
-          <td><img src = "https://user-images.githubusercontent.com/68738102/126863160-6a161a05-f0da-4145-aba4-6e2d427a7308.png" ></td>
-            <td><img src = "https://user-images.githubusercontent.com/68738102/126862550-6e9ac469-23a0-4323-9f0c-edcc53220558.png" ></td>
+          <td><img src = "https://user-images.githubusercontent.com/68738102/126863160-6a161a05-f0da-4145-aba4-6e2d427a7308.png" height="560"></td>
+            <td><img src = "https://user-images.githubusercontent.com/68738102/126862550-6e9ac469-23a0-4323-9f0c-edcc53220558.png" height="560" ></td>
         </tr>
 </table>
 
