@@ -80,7 +80,7 @@ Signup uses Firebase OTP ,to verify the unique user,although there is a private 
 add him/her to your friendslist,other wise you have to invite him to use the app.
 * You can users from your friends list whenever you want.
 
-<img src = "https://user-images.githubusercontent.com/68738102/126862724-3d64533e-6c1b-44c8-a46f-68bc733b21e5.png" width="280" height="280" >
+<img src = "https://user-images.githubusercontent.com/68738102/126862724-3d64533e-6c1b-44c8-a46f-68bc733b21e5.png" width="280" height="560" >
         
 
 
