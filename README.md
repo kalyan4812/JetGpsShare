@@ -55,6 +55,7 @@ Signup uses Firebase OTP ,to verify the unique user,although there is a private 
 
 * MapBox sdk is used to display the map and to draw the path between two points.You can get path between your and any random loaction by clikcing on the map.And other thing is you can find  a search button ,where you can find your friend using his/her name or number.
 * You can share your/any destination location to anybody using share option in the app.
+* Clicking on start navigation navigate to google navigation where you can directions from your location to destination.
 
 <table>
         <tr>
