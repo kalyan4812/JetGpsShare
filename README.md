@@ -28,7 +28,7 @@ Jet Gps Share is an android application makes you to find the location of your f
 It uses Firebase and SQLite to store and display the information to the user.
 The app uses Material UI for an attractive interface (subject to improvement) which attracts the user to stay on the app for more time.
 
-The app is developed using native android(Java). It is tightly coupled as it was developed as a project to learn Android Development.
+The app is developed using native android(Java) and PHP,MySql as backend. It is tightly coupled as it was developed as a project to learn Android Development.
 
 <img src = "/Images/login.PNG" width="235" height="500"/> <img src = "/Images/home_light.PNG" width="235" height="500"/>
 
