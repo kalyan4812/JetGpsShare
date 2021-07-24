@@ -28,6 +28,8 @@ The app is developed using native android(Java) and PHP,MySql as backend. It is 
 
 ### Splash and OnboardingScreens
 
+Before you use the app,you have to accept the privacy policy,and auto start permission is optional for the app, it allows you to upadte your loaction even if you are not using the app.
+
 <table>
         <tr>
           <td><img src = "https://user-images.githubusercontent.com/68738102/126861392-84d45057-ccb1-4b1c-980b-7d4ab8a85838.png" ></td>
@@ -38,6 +40,21 @@ The app is developed using native android(Java) and PHP,MySql as backend. It is 
 
 
 ### Authentication Screens
+
+Signup uses Firebase OTP ,to verify the unique user,although there is a private backend to store users info.
+
+<table>
+        <tr>
+          <td><img src = "https://user-images.githubusercontent.com/68738102/126861514-a3b64eb0-d56a-4946-b496-8417122aff6e.png" ></td>
+          <td><img src = "https://user-images.githubusercontent.com/68738102/126861538-d3bfaa40-ef4b-44ab-95fd-75878828425c.png" ></td>
+        </tr>
+</table>
+
+
+### Home Screen
+
+* MapBox sdk is used to display the map and to draw the path between two points.You can get path between your and any random loaction by clikcing on the map.And other thing is you can find  a search button ,where you can find your friend using his/her name or number.
+* You can share your/any destination location to anybody using share option in the app.
 
 <table>
         <tr>
