@@ -36,6 +36,16 @@ The app is developed using native android(Java) and PHP,MySql as backend. It is 
         </tr>
 </table>
 
+
+### Authentication Screens
+
+<table>
+        <tr>
+          <td><img src = "https://user-images.githubusercontent.com/68738102/126861514-a3b64eb0-d56a-4946-b496-8417122aff6e.png" ></td>
+          <td><img src = "https://user-images.githubusercontent.com/68738102/126861538-d3bfaa40-ef4b-44ab-95fd-75878828425c.png" ></td>
+        </tr>
+</table>
+
 ### Attendence Manager
 The app has an integrated **Attendance Manager** which uses Room Library and SQLite Database to store and retrieve data and display it in a graphical manner which looks appealing and convenient to track your attendance.
   
