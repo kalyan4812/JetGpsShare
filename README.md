@@ -8,8 +8,8 @@
 
 <a href="https://play.google.com/store/apps/details?id=com.saikalyandaroju.jetgpsshare"><img alt="Get it on Google Play" height="80" src="https://user-images.githubusercontent.com/68738102/126859366-c344986c-b527-4151-8d4c-e91c92eda716.png"></a>
 
-College Connect is an android application aimed to be a one-stop-shop for all the college needs irrespective of college and course.  
-It aims to create a helpful platform for all college students.
+Jet Gps Share is an android application makes you to find the location of your friends using their mobile number.All you need is to ask your friend to add you in his friends list. Indirectly you can access a person location only if he/she allows you.This makes our app legal.
+
 It uses Firebase and SQLite to store and display the information to the user.
 The app uses Material UI for an attractive interface (subject to improvement) which attracts the user to stay on the app for more time.
 
