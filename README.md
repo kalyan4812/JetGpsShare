@@ -65,18 +65,9 @@ Signup uses Firebase OTP ,to verify the unique user,although there is a private 
         </tr>
   <tr>
           <td><img src = "https://user-images.githubusercontent.com/68738102/126862178-1a57e3f3-ad4a-4013-a6b1-79d38c7d2fe3.png" ></td>
-          <td><img src = "https://user-images.githubusercontent.com/68738102/126862473-6ca276d7-b2e7-4fe2-aead-2985996b4e03.png" ></td>
-          <td><img src = "https://user-images.githubusercontent.com/68738102/126862475-84b3e60f-721d-4067-9cec-f4c7cbc74fee.png" ></td>
+          <td><img src = "https://user-images.githubusercontent.com/68738102/126862535-b7913d34-37bd-4e90-9db6-d585e2c2cf31.png" ></td>
+          <td><img src = "https://user-images.githubusercontent.com/68738102/126862550-6e9ac469-23a0-4323-9f0c-edcc53220558.png" ></td>
         </tr>
- 
- 
- 
- 
- 
- 
- 
- 
- 
  
 
 
@@ -91,6 +82,8 @@ The app has an integrated **Attendance Manager** which uses Room Library and SQL
 
 
 The Notes tab provides notes uploaded by students. The recycler view shows the name of the author with a total number of downloads and relevant tags.
+
+
 
 
 c = "/Images/download_notes_light.PNG" width="235" height="500"/>
