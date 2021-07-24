@@ -75,7 +75,7 @@ Signup uses Firebase OTP ,to verify the unique user,although there is a private 
 add him/her to your friendslist,other wise you have to invite him to use the app.
 * You can users from your friends list whenever you want.
 
-<img src = "https://user-images.githubusercontent.com/68738102/126862921-4c46d2dd-6f70-40be-965c-432058980c2a.png" width="300" height="600" align="center" >
+<img src = "https://user-images.githubusercontent.com/68738102/126862921-4c46d2dd-6f70-40be-965c-432058980c2a.png" width="320" height="540" align="center" >
         
 
 ### Set Activity Status
@@ -84,7 +84,7 @@ add him/her to your friendslist,other wise you have to invite him to use the app
 
 * Whenver you want to stop upadting your loaction you can disable your activity status.
 
-<img src = "https://user-images.githubusercontent.com/68738102/126863007-fb4614e6-3167-43a2-a6db-4c5c06f6cd29.png" width="300" height="600" align="center" >
+<img src = "https://user-images.githubusercontent.com/68738102/126863007-fb4614e6-3167-43a2-a6db-4c5c06f6cd29.png" width="320" height="540" align="center" >
 
 
 
