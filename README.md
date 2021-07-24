@@ -44,8 +44,8 @@ Signup uses Firebase OTP ,to verify the unique user,although there is a private 
 
 <table>
         <tr>
-          <td><img src = "https://user-images.githubusercontent.com/68738102/126861514-a3b64eb0-d56a-4946-b496-8417122aff6e.png" width="300" height="520"></td>
-          <td><img src = "https://user-images.githubusercontent.com/68738102/126861538-d3bfaa40-ef4b-44ab-95fd-75878828425c.png" width="300"  height="520"></td>
+          <td><img src = "https://user-images.githubusercontent.com/68738102/126861514-a3b64eb0-d56a-4946-b496-8417122aff6e.png" width="300" height="540"></td>
+          <td><img src = "https://user-images.githubusercontent.com/68738102/126861538-d3bfaa40-ef4b-44ab-95fd-75878828425c.png" width="300"  height="540"></td>
         </tr>
 </table>
 
