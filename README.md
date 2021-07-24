@@ -17,13 +17,11 @@ Jet Gps Share is an android application makes you to find the location of your f
 ### The following libraries/Tools were used in this project:-
 
  - [MapBoxSdk](https://docs.mapbox.com/android/maps/guides/)
- - [Room](https://developer.android.com/topic/libraries/architecture/livedata)
- - [Glide](https://github.com/bumptech/glide)
- - [Dagger2](https://github.com/google/dagger)
- - [Retrofit](https://github.com/square/retrofit)
- - [Moshi](https://github.com/square/moshi)
- - [FinestWebView-Android](https://github.com/TheFinestArtist/FinestWebView-Android)
- - [Preferences DataStore](https://developer.android.com/topic/libraries/architecture/datastore)
+ - [Room](https://developer.android.com/jetpack/androidx/releases/room)
+ - [Picasso](https://github.com/square/picasso)
+ - [WorkManager](https://developer.android.com/topic/libraries/architecture/workmanager)
+ - [Volley](https://developer.android.com/training/volley)
+ - [Lottie](https://lottiefiles.com/)
  - [Navigation component](https://developer.android.com/guide/navigation)
 
 
