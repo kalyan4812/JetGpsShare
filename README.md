@@ -55,7 +55,7 @@ Signup uses Firebase OTP ,to verify the unique user,although there is a private 
 
 * MapBox sdk is used to display the map and to draw the path between two points.You can get path between your and any random loaction by clikcing on the map.And other thing is you can find  a search button ,where you can find your friend using his/her name or number.
 * You can share your/any destination location to anybody using share option in the app.
-* Clicking on start navigation navigate to google navigation where you can directions from your location to destination.
+* Clicking on start navigation navigate to google navigation where you can get directions from your location to destination.
 
 <table>
         <tr>
@@ -63,6 +63,12 @@ Signup uses Firebase OTP ,to verify the unique user,although there is a private 
           <td><img src = "https://user-images.githubusercontent.com/68738102/126862059-4176e1e0-65a0-4241-875f-db1616ba5212.png" ></td>
           <td><img src = "https://user-images.githubusercontent.com/68738102/126862090-5e9ca828-436e-4d6c-a477-bdd8ab321f10.png" ></td>
         </tr>
+  <tr>
+          <td><img src = "https://user-images.githubusercontent.com/68738102/126862178-1a57e3f3-ad4a-4013-a6b1-79d38c7d2fe3.png" ></td>
+          <td><img src = "https://user-images.githubusercontent.com/68738102/126862473-6ca276d7-b2e7-4fe2-aead-2985996b4e03.png" ></td>
+          <td><img src = "https://user-images.githubusercontent.com/68738102/126862475-84b3e60f-721d-4067-9cec-f4c7cbc74fee.png" ></td>
+        </tr>
+ 
  
  
  
@@ -82,6 +88,8 @@ The app has an integrated **Attendance Manager** which uses Room Library and SQL
 <img src = "/Images/attendance_light.PNG" width="235" height="500"/>
 
 ### Notes  
+
+
 The Notes tab provides notes uploaded by students. The recycler view shows the name of the author with a total number of downloads and relevant tags.
 
 
