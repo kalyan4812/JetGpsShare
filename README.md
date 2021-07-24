@@ -26,6 +26,7 @@ Jet Gps Share is an android application makes you to find the location of your f
 
 The app is developed using native android(Java) and PHP,MySql as backend. It is tightly coupled as it was developed as a project to learn Android Development.
 
+### Splash and OnboardingScreens
 <img src = "https://user-images.githubusercontent.com/68738102/126860377-0a96e2cb-dd24-4117-8ac1-8157d8f55ebd.png" width="235" height="500"/> 
 
 ### Attendence Manager
