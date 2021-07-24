@@ -58,9 +58,21 @@ Signup uses Firebase OTP ,to verify the unique user,although there is a private 
 
 <table>
         <tr>
-          <td><img src = "https://user-images.githubusercontent.com/68738102/126861514-a3b64eb0-d56a-4946-b496-8417122aff6e.png" ></td>
-          <td><img src = "https://user-images.githubusercontent.com/68738102/126861538-d3bfaa40-ef4b-44ab-95fd-75878828425c.png" ></td>
+          <td><img src = "https://user-images.githubusercontent.com/68738102/126862037-e8fcc62a-f9f5-4f44-908f-0fd76164712a.png" ></td>
+          <td><img src = "https://user-images.githubusercontent.com/68738102/126862059-4176e1e0-65a0-4241-875f-db1616ba5212.png" ></td>
+          <td><img src = "https://user-images.githubusercontent.com/68738102/126862090-5e9ca828-436e-4d6c-a477-bdd8ab321f10.png" ></td>
         </tr>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
 </table>
 
 ### Attendence Manager
