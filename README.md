@@ -32,7 +32,7 @@ The app is developed using native android(Java) and PHP,MySql as backend. It is 
         <tr>
           <td><img src = "https://user-images.githubusercontent.com/68738102/126860377-0a96e2cb-dd24-4117-8ac1-8157d8f55ebd.png" ></td>
           <td><img src = "https://user-images.githubusercontent.com/68738102/126860797-c3680d5c-bc92-4e62-b2f1-b0c9406bba2a.png" ></td>
-          <td><img src = "app/screenshots/3.png" ></td>
+          <td><img src = "https://user-images.githubusercontent.com/68738102/126860797-c3680d5c-bc92-4e62-b2f1-b0c9406bba2a.png" ></td>
         </tr>
 </table>
 
