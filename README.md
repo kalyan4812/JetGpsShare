@@ -32,7 +32,7 @@ This idea was developed for Ideathon held in BVCOE, New Delhi where it was prese
 
 Later it was aimed to be a _third party app for every college and course in India_
 
-The app is developed using native android(Java and Kotlin both) and follows MVVM architecture. It is tightly coupled as it was developed as a project to learn Android Development.
+The app is developed using native android(Java). It is tightly coupled as it was developed as a project to learn Android Development.
 
 <img src = "/Images/login.PNG" width="235" height="500"/> <img src = "/Images/home_light.PNG" width="235" height="500"/>
 
