@@ -93,9 +93,9 @@ add him/her to your friendslist,other wise you have to invite him to use the app
 * You can change the style of the map in the settings.
 <table>
         <tr>
-          <td><img src = "https://user-images.githubusercontent.com/68738102/126863061-7a7e7fd3-5bf1-463e-8682-2eae9d756ea2.png" width="300" height="540"></td>
-            <td><img src = "https://user-images.githubusercontent.com/68738102/126863299-fb48d124-8cba-4042-ae6f-caa748f12fcf.png" width="300" height="540" ></td>
-          <td><img src = "https://user-images.githubusercontent.com/68738102/126863334-74787515-35cb-4b30-a26f-ece5eea4a274.png" width="300" height="540" ></td>
+          <td><img src = "https://user-images.githubusercontent.com/68738102/126863061-7a7e7fd3-5bf1-463e-8682-2eae9d756ea2.png" ></td>
+            <td><img src = "https://user-images.githubusercontent.com/68738102/126863299-fb48d124-8cba-4042-ae6f-caa748f12fcf.png"  ></td>
+          <td><img src = "https://user-images.githubusercontent.com/68738102/126863334-74787515-35cb-4b30-a26f-ece5eea4a274.png"  ></td>
         </tr>
 </table>
 
@@ -107,8 +107,8 @@ add him/her to your friendslist,other wise you have to invite him to use the app
 * You can remove your account ,so that all your data will be deleted from database,.
 <table>
         <tr>
-          <td><img src = "https://user-images.githubusercontent.com/68738102/126863160-6a161a05-f0da-4145-aba4-6e2d427a7308.png" height="560"></td>
-            <td><img src = "https://user-images.githubusercontent.com/68738102/126862550-6e9ac469-23a0-4323-9f0c-edcc53220558.png" height="560" ></td>
+          <td><img src = "https://user-images.githubusercontent.com/68738102/126863160-6a161a05-f0da-4145-aba4-6e2d427a7308.png" width="300" height="540"></td>
+            <td><img src = "https://user-images.githubusercontent.com/68738102/126862550-6e9ac469-23a0-4323-9f0c-edcc53220558.png" width="300" height="540" ></td>
         </tr>
 </table>
 
