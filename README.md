@@ -8,6 +8,8 @@
 
 ![Api Level](https://img.shields.io/badge/Min%20API%20Level-21-important)
 
+Application is available here:
+
 <a href="https://play.google.com/store/apps/details?id=com.saikalyandaroju.jetgpsshare"><img alt="Get it on Google Play" height="80" src="https://user-images.githubusercontent.com/68738102/126859366-c344986c-b527-4151-8d4c-e91c92eda716.png"></a>
 
 Jet Gps Share is an android application makes you to find the location of your friends using their mobile number.All you need is to ask your friend to add you in his friends list. Indirectly you can access a person location only if he/she allows you.This makes our app legal.
