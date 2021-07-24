@@ -66,7 +66,7 @@ Signup uses Firebase OTP ,to verify the unique user,although there is a private 
   <tr>
           <td><img src = "https://user-images.githubusercontent.com/68738102/126862178-1a57e3f3-ad4a-4013-a6b1-79d38c7d2fe3.png" ></td>
           <td><img src = "https://user-images.githubusercontent.com/68738102/126862535-b7913d34-37bd-4e90-9db6-d585e2c2cf31.png" ></td>
-          <td><img src = "https://user-images.githubusercontent.com/68738102/126862550-6e9ac469-23a0-4323-9f0c-edcc53220558.png" ></td>
+       
         </tr>
  
 
@@ -96,6 +96,18 @@ add him/her to your friendslist,other wise you have to invite him to use the app
 ### Profile Screen
 
 <img src = "https://user-images.githubusercontent.com/68738102/126863061-7a7e7fd3-5bf1-463e-8682-2eae9d756ea2.png" width="300" height="600" align="center" >
+
+
+### Remove Account and Logout.
+
+* You can remove your account ,so that all your data will be deleted from database,.
+<table>
+        <tr>
+          <td><img src = "https://user-images.githubusercontent.com/68738102/126863160-6a161a05-f0da-4145-aba4-6e2d427a7308.png" ></td>
+            <td><img src = "https://user-images.githubusercontent.com/68738102/126862550-6e9ac469-23a0-4323-9f0c-edcc53220558.png" ></td>
+        </tr>
+</table>
+
 
         
 
