@@ -80,7 +80,7 @@ Signup uses Firebase OTP ,to verify the unique user,although there is a private 
 add him/her to your friendslist,other wise you have to invite him to use the app.
 * You can users from your friends list whenever you want.
 
-<img src = "https://user-images.githubusercontent.com/68738102/126862724-3d64533e-6c1b-44c8-a46f-68bc733b21e5.png" width="235" height="500" align="center" >
+<img src = "https://user-images.githubusercontent.com/68738102/126862921-4c46d2dd-6f70-40be-965c-432058980c2a.png" width="235" height="500" align="center" >
         
 
 
@@ -102,7 +102,8 @@ The Notes tab provides notes uploaded by students. The recycler view shows the n
 c = "/Images/download_notes_light.PNG" width="235" height="500"/>
 
 #### _Upload Notes and My Files_  
-The upload notes area provide for easy upload of notes by users. It takes the authors name to give credit to the author.
+
+ad notes area provide for easy upload of notes by users. It takes the authors name to give credit to the author.
 
 The number of downloads will encourage students to make more impressive notes and create a sense of healthy competition.
 
