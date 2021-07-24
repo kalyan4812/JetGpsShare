@@ -2,8 +2,7 @@
 
 
 # **Jet Gps Share**
-
-📍 Loaction Tracking App.
+<img src="https://www.seekpng.com/png/detail/11-114649_location-map-pin-icon-location-emoji-png.png" /img> Loaction Tracking App.
 
 
 ![Api Level](https://img.shields.io/badge/Min%20API%20Level-21-important)
