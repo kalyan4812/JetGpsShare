@@ -93,9 +93,18 @@ add him/her to your friendslist,other wise you have to invite him to use the app
 
 
 
-### Profile Screen
+### Profile Screen and Settings
 
-<img src = "https://user-images.githubusercontent.com/68738102/126863061-7a7e7fd3-5bf1-463e-8682-2eae9d756ea2.png" width="300" height="600" align="center" >
+* You can change the style of the map in the settings.
+<table>
+        <tr>
+          <td><img src = "https://user-images.githubusercontent.com/68738102/126863061-7a7e7fd3-5bf1-463e-8682-2eae9d756ea2.png" height="560"></td>
+            <td><img src = "https://user-images.githubusercontent.com/68738102/126863299-fb48d124-8cba-4042-ae6f-caa748f12fcf.png" height="560" ></td>
+          <td><img src = "https://user-images.githubusercontent.com/68738102/126863334-74787515-35cb-4b30-a26f-ece5eea4a274.png" height="560" ></td>
+        </tr>
+</table>
+
+
 
 
 ### Remove Account and Logout.
