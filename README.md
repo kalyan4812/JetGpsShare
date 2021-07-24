@@ -73,6 +73,22 @@ Signup uses Firebase OTP ,to verify the unique user,although there is a private 
 
 </table>
 
+
+### Add Friends(who can track your loaction)
+
+* Room database is used to store user friends locally.Adding friends is made simple by accessing the persons from user contacts.If your friend is using the app you van directly
+add him/her to your friendslist,other wise you have to invite him to use the app.
+* You can users from your friends list whenever you want.
+
+<table>
+        <tr>
+          <td><img src = "https://user-images.githubusercontent.com/68738102/126862724-3d64533e-6c1b-44c8-a46f-68bc733b21e5.png" ></td>
+         
+        </tr>
+</table>
+
+
+
 ### Attendence Manager
 The app has an integrated **Attendance Manager** which uses Room Library and SQLite Database to store and retrieve data and display it in a graphical manner which looks appealing and convenient to track your attendance.
   
